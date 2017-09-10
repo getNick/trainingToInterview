@@ -85,6 +85,7 @@
             this.btnSave.TabIndex = 4;
             this.btnSave.Text = "Save to file";
             this.btnSave.UseVisualStyleBackColor = true;
+            this.btnSave.Click += new System.EventHandler(this.btnSave_Click);
             // 
             // menuStrip1
             // 
@@ -111,12 +112,14 @@
             this.changeAPIKeyToolStripMenuItem.Name = "changeAPIKeyToolStripMenuItem";
             this.changeAPIKeyToolStripMenuItem.Size = new System.Drawing.Size(193, 26);
             this.changeAPIKeyToolStripMenuItem.Text = "Change API key";
+            this.changeAPIKeyToolStripMenuItem.Click += new System.EventHandler(this.changeAPIKeyToolStripMenuItem_Click);
             // 
             // changeFilePathToolStripMenuItem
             // 
             this.changeFilePathToolStripMenuItem.Name = "changeFilePathToolStripMenuItem";
             this.changeFilePathToolStripMenuItem.Size = new System.Drawing.Size(193, 26);
             this.changeFilePathToolStripMenuItem.Text = "Change file path";
+            this.changeFilePathToolStripMenuItem.Click += new System.EventHandler(this.changeFilePath);
             // 
             // Form1
             // 
