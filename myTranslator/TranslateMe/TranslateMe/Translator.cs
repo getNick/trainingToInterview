@@ -23,7 +23,7 @@ namespace TranslateMe
         }
         public string translateWord(string inputText,LangPair lp)
         {
-
+            if(dic.Lookup(lp, inputText).Definitions.Count==0) return "not found";
             var result = dic.Lookup(lp, inputText).Definitions[0];
             List<string> list = new List<string>();
             foreach(var i in result.Translations)
