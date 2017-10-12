@@ -53,7 +53,7 @@ namespace TranslateMe
                 changeFilePath(null,null);
             }
             File.AppendAllText(config.AppSettings.Settings["filePath"].Value, Environment.NewLine+tbInput.Text + " - " + tbResult.Text);
-            MessageBox.Show("Save to " + config.AppSettings.Settings["filePath"].Value);
+            //MessageBox.Show("Save to " + config.AppSettings.Settings["filePath"].Value);
         }
 
         private void changeFilePath(object sender, EventArgs e)
@@ -123,7 +123,7 @@ namespace TranslateMe
                 while ((line = streamReader.ReadLine()) != null)
                 {
                     var mass = line.Split('-');
-                    mass[0]=mass[0].Remove(mass[0].IndexOf(' '));
+                    mass[0]=mass[0].Remove(mass[0].Length-1);
                     mass[1] = mass[1].Remove(0, mass[1].LastIndexOf(']') + 2);
                     dictionaryList.Add(mass[0], mass[1]);
                 }
