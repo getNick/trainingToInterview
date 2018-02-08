@@ -1,0 +1,7 @@
+D:\gitHub\trainingToInterview\structAndAlgo\iterator\iterator\bin\Debug\iterator.exe.config
+D:\gitHub\trainingToInterview\structAndAlgo\iterator\iterator\bin\Debug\iterator.exe
+D:\gitHub\trainingToInterview\structAndAlgo\iterator\iterator\bin\Debug\iterator.pdb
+D:\gitHub\trainingToInterview\structAndAlgo\iterator\iterator\obj\Debug\iterator.csprojResolveAssemblyReference.cache
+D:\gitHub\trainingToInterview\structAndAlgo\iterator\iterator\obj\Debug\iterator.csproj.CoreCompileInputs.cache
+D:\gitHub\trainingToInterview\structAndAlgo\iterator\iterator\obj\Debug\iterator.exe
+D:\gitHub\trainingToInterview\structAndAlgo\iterator\iterator\obj\Debug\iterator.pdb
